@@ -6,15 +6,15 @@ Proyecto en C++ que implementa 8 algoritmos de ordenamiento clásicos, mide sus 
 *Ejemplo de gráfica generada (reemplazar con tu imagen)*
 
 ## 🛠️ Estructura del Código
-├── main.cpp            # Punto de entrada principal
-├── Algoritmos.cpp      # Implementación de los 8 algoritmos
-├── Plantilla.cpp       # Sistema de medición y generación de CSV
-├── Algoritmos.hpp      # Headers de los algoritmos
-├── Plantilla.hpp       # Headers de utilidades
-├── data/               # Datos generados (CSV)
-│   ├── 1_Insercion_por_orden.csv
-│   └── ... (otros 7 archivos)
-└── README.md           # Esta documentación
+- main.cpp            # Punto de entrada principal
+- Algoritmos.cpp      # Implementación de los 8 algoritmos
+- Plantilla.cpp       # Sistema de medición y generación de CSV
+- Algoritmos.hpp      # Headers de los algoritmos
+- Plantilla.hpp       # Headers de utilidades
+- data/               # Datos generados (CSV)
+- 1_Insercion_por_orden.csv
+- ... 
+- README.md           # Esta documentación
 
 
 ## 📋 Requisitos del sistema
@@ -27,14 +27,14 @@ Proyecto en C++ que implementa 8 algoritmos de ordenamiento clásicos, mide sus 
 ## 🛠️ Compilación y ejecución
 
 # Compilar (todos los algoritmos)
-´´´bash
+```bash
 g++ main.cpp -o ordenamientos -O2
-´´´
+```
 
 ## Ejecutar
-´´´bash
+```bash
 ./ordenamientos
-´´´
+```
 
 ## 📊 Algoritmos implementados
 Bubble Sort: Ordenamiento simple por intercambio O(n²)
