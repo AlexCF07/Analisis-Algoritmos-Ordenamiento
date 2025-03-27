@@ -3,13 +3,13 @@
 Proyecto en C++ que implementa 8 algoritmos de ordenamiento clásicos, mide sus tiempos de ejecución y genera reportes en CSV para análisis comparativo.
 
 ## 📊 Algoritmos implementados
-- **Bubble Sort:** Ordenamiento simple por intercambio O(n²)
-- **Selection Sort:** Selección del mínimo en cada iteración O(n²)
-- **Insertion Sort:** Construye la secuencia ordenada gradualmente O(n²)
-- **Merge Sort**: Divide y vencerás con recursión O(n log n)
-- **Quick Sort:** Particionamiento recursivo O(n log n) promedio
-- **Heap Sort:** Uso de estructura heap O(n log n)
-- **Shell Sort:** Mejora de Insertion Sort con brechas O(n^(3/2)))
+- **Bubble Sort →** Intercambia repetidamente elementos adyacentes en orden incorrecto
+- **Selection Sort →**   Selecciona el elemento más pequeño y lo coloca en su posición correcta en cada iteración
+- **Insertion Sort →** Inserta cada elemento en su posición correcta dentro de la porción ya ordenada
+- **Merge Sort →** Divide el arreglo recursivamente, ordena y combina las mitades ordenadas
+- **Quick Sort →** Ordena mediante particionamiento alrededor de un pivote y recursión
+- **Heap Sort →** Convierte el arreglo en un heap para extraer elementos en orden
+- **Shell Sort →** Ordena por inserción con brechas decrecientes para mayor eficiencia
   
 ## 🛠️ Estructura del Código
 - **`main.cpp`**: Archivo principal del programa.
