@@ -1,21 +1,16 @@
-# Análisis de Algoritmos de Ordenamiento ⚡
+# Análisis de Algoritmos de Ordenamiento
 
 Proyecto en C++ que implementa 8 algoritmos de ordenamiento clásicos, mide sus tiempos de ejecución y genera reportes en CSV para análisis comparativo.
 
-![Gráfica Comparativa](grafica_tiempos.png)  
-*Ejemplo de gráfica generada (reemplazar con tu imagen)*
-
 ## 🛠️ Estructura del Código
-- main.cpp            # Punto de entrada principal
-- Algoritmos.cpp      # Implementación de los 8 algoritmos
-- Plantilla.cpp       # Sistema de medición y generación de CSV
-- Algoritmos.hpp      # Headers de los algoritmos
-- Plantilla.hpp       # Headers de utilidades
-- data/               # Datos generados (CSV)
-- 1_Insercion_por_orden.csv
-- ... 
-- README.md           # Esta documentación
-
+- **`main.cpp`**: Archivo principal del programa.
+- **`Algoritmos.cpp`**:  Archivo donde se ejecutan los algoritmos de ordenamiento.
+- **`Plantilla.cpp`**:  Archivo donde se ejecutan las funciones principales del programa.
+- **`Algoritmos.hpp`**: Archivo desde donde se llaman las funciones de los algoritmos.
+- **`Plantilla.hpp`**: Archivo desde donde se llaman las funciones principales del programa
+- **`Carpeta Tablas`**: Carpeta donde se ubican los archivos .csv generados por el programa.  
+- **`Carpeta Gráficas`**: Carpeta donde se ubican las gráficas que interpretan los archivos .csv.
+- **`README.md`**: Archvivo donde se comunica las especificaciones del repositorio.
 
 ## 📋 Requisitos del sistema
 
@@ -24,14 +19,12 @@ Proyecto en C++ que implementa 8 algoritmos de ordenamiento clásicos, mide sus 
 - 4GB de RAM (para pruebas con arreglos grandes)
 - 500MB de espacio en disco
 
-## 🛠️ Compilación y ejecución
-
-# Compilar (todos los algoritmos)
+## ⚒️Compilación (todos los algoritmos)
 ```bash
 g++ main.cpp -o ordenamientos -O2
 ```
 
-## Ejecutar
+## 🪓Ejecución
 ```bash
 ./ordenamientos
 ```
@@ -53,17 +46,27 @@ Shell Sort: Mejora de Insertion Sort con brechas O(n^(3/2)))
 
 ## ⏱️ Resultados experimentales
 
-Gráfica comparativa
-
-Tiempos de ejecución promedio para diferentes tamaños de entrada (100-10,000 elementos)
+GRAFICA ///
 
 ## 🎯 Conclusiones
+- **Para pequeños conjuntos (n < 100):**
+  - Inserción y Burbuja Optimizado son más eficientes
+  - Quick Sort muestra sobrecarga por recursión
 
-Merge Sort y Quick Sort demostraron mejor rendimiento para n > 1,000
+- **Para grandes conjuntos (n > 500):**
+  - Merge Sort y Heap Sort mantienen O(n log n)
+ 
+## 📌 Instrucciones de Uso
+Compilar el proyecto
 
-Los algoritmos O(n²) son adecuados para entradas pequeñas (<100 elementos)
+Ejecutar el programa (generará los CSV en la misma carpeta)
 
-El factor de estabilidad es crucial en aplicaciones específicas
+Importar los CSV a Excel/Power BI para el análisis
+
+Usar la fila "Promedio" en cada CSV para generar las gráficas
+  - Burbuja Clásico es 100x más lento que otros
+
+- **Mejor equilibrio:** Shell Sort (buen rendimiento en todos los tamaños)
 
 ## 📄 Licencia
-Este proyecto está bajo la licencia MIT - ver LICENSE.md para más detalles.
+MIT License - Ver LICENSE.md
