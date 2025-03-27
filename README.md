@@ -2,6 +2,7 @@
 
 Proyecto en C++ que implementa 8 algoritmos de ordenamiento clásicos, mide sus tiempos de ejecución y genera reportes en CSV para análisis comparativo.
 
+
 ## 📊 Algoritmos implementados
 - **Bubble Sort →** Intercambia repetidamente elementos adyacentes en orden incorrecto
 - **Selection Sort →**   Selecciona el elemento más pequeño y lo coloca en su posición correcta en cada iteración
