@@ -1,4 +1,4 @@
-# Análisis de Algoritmos de Ordenamiento
+# 🚀 Análisis de Algoritmos de Ordenamiento
 
 Proyecto en C++ que implementa 8 algoritmos de ordenamiento clásicos, mide sus tiempos de ejecución y genera reportes en CSV para análisis comparativo.
 
