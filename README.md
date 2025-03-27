@@ -17,7 +17,7 @@ g++ main.cpp -o ordenamientos -O2
 ## Ejecutar
 ./ordenamientos
 
-##📊 Algoritmos implementados
+## 📊 Algoritmos implementados
 Bubble Sort: Ordenamiento simple por intercambio O(n²)
 
 Selection Sort: Selección del mínimo en cada iteración O(n²)
@@ -32,13 +32,13 @@ Heap Sort: Uso de estructura heap O(n log n)
 
 Shell Sort: Mejora de Insertion Sort con brechas O(n^(3/2)))
 
-##⏱️ Resultados experimentales
+## ⏱️ Resultados experimentales
 
 Gráfica comparativa
 
 Tiempos de ejecución promedio para diferentes tamaños de entrada (100-10,000 elementos)
 
-##🎯 Conclusiones
+## 🎯 Conclusiones
 
 Merge Sort y Quick Sort demostraron mejor rendimiento para n > 1,000
 
@@ -46,5 +46,5 @@ Los algoritmos O(n²) son adecuados para entradas pequeñas (<100 elementos)
 
 El factor de estabilidad es crucial en aplicaciones específicas
 
-##📄 Licencia
+## 📄 Licencia
 Este proyecto está bajo la licencia MIT - ver LICENSE.md para más detalles.
