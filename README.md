@@ -28,15 +28,31 @@ Proyecto en C++ que implementa 8 algoritmos de ordenamiento clásicos, mide sus 
 - 4GB de RAM (para pruebas con arreglos grandes)
 - 500MB de espacio en disco
 
-## ⚒️Compilación (todos los algoritmos)
+## ⚙️ Compilación y ejecución
+**Windows (CMD/PowerShell)**
+1. Compilar:
 ```bash
-g++ main.cpp -o ordenamientos -O2
+g++ main.cpp Algoritmos.cpp Plantilla.cpp -o ordenamientos -O2 -I .
+```
+2. Ejecutar:
+```bash
+.\ordenamientos.exe
 ```
 
-## 🪓Ejecución
+**Linux (Terminal)**
+1. Instalar dependencias (si es necesario):
+```bash
+sudo apt update && sudo apt install g++ build-essential
+```
+2. Compilar:
+```bash
+g++ main.cpp Algoritmos.cpp Plantilla.cpp -o ordenamientos -O2 -I .
+```
+3. Ejecutar:
 ```bash
 ./ordenamientos
 ```
+   
 
 ## 📌 Instrucciones de Uso
 - Compilar el proyecto
