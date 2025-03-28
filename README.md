@@ -55,14 +55,15 @@ Proyecto en C++ que implementa 8 algoritmos de ordenamiento clásicos, mide sus 
 
 
 ## 🎯 Conclusiones
-- **Para pequeños conjuntos (n < 100):**
-  - Inserción y Burbuja Optimizado son más eficientes
-  - Quick Sort muestra sobrecarga por recursión
+- El más rápido: Quick Sort (Rápido) gana en velocidad para la mayoría de los casos (especialmente con muchos datos).
+- Para pocos datos: El algoritmos de Inserción por ordenación y el de Burbuja son buenas opciones.
+- Consistentes pero más lentos: Los algoritmos de Mezcla, Montículos y Shell funcionan bien, pero no son tan rápidos como Quick Sort.
+- El más lento: Algoritmo de Burbuja Optimizado. Con muchos datos es 100 veces más lento.
 
-- **Para grandes conjuntos (n > 500):**
-  - Merge Sort y Heap Sort mantienen O(n log n)
-  - Burbuja Clásico es 100x más lento que otros
-  - **Mejor equilibrio:** Shell Sort (buen rendimiento en todos los tamaños)
+💡 Consejos práctico:
+
+- Usa Quick Sort casi siempre (es el mejor balance).
+- Si tienes datos casi ordenados o muy pocos, prueba Insertion Sort.
 
 ## 📄 Licencia
 MIT License - Ver LICENSE.md
