@@ -46,7 +46,8 @@ g++ main.cpp -o ordenamientos -O2
 
 ## ⏱️ Resultados experimentales
 
-GRAFICA ///
+![Uploading Gráfica.png…]()
+
 
 ## 🎯 Conclusiones
 - **Para pequeños conjuntos (n < 100):**
