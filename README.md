@@ -22,36 +22,25 @@ Proyecto en C++ que implementa 8 algoritmos de ordenamiento clásicos, mide sus 
 - **`README.md`**: Archvivo donde se comunica las especificaciones del repositorio.
 
 ## 📋 Requisitos del sistema
-
-- Compilador C++ (g++ 9.0 o superior recomendado)
-- Sistema operativo: Windows
-- 4GB de RAM (para pruebas con arreglos grandes)
-- 500MB de espacio en disco
+- Compilador C++: g++ 9.0+ (Windows/Linux) o clang++.
+- RAM: 4GB (para arreglos grandes).
+- Espacio en disco: 500MB.
+- Sistemas soportados: Windows 10/11 o Linux (Ubuntu/Debian recomendado).
 
 ## ⚙️ Compilación y ejecución
 **Windows (CMD/PowerShell)**
 1. Compilar:
-```bash
-g++ main.cpp Algoritmos.cpp Plantilla.cpp -o ordenamientos -O2 -I .
-```
+   ```bash g++ main.cpp Algoritmos.cpp Plantilla.cpp -o ordenamientos -O2 -I .```
 2. Ejecutar:
-```bash
-.\ordenamientos.exe
-```
+   ```bash .\ordenamientos.exe```
 
 **Linux (Terminal)**
 1. Instalar dependencias (si es necesario):
-```bash
-sudo apt update && sudo apt install g++ build-essential
-```
+   ```bash sudo apt update && sudo apt install g++ build-essential```
 2. Compilar:
-```bash
-g++ main.cpp Algoritmos.cpp Plantilla.cpp -o ordenamientos -O2 -I .
-```
+   ```bash g++ main.cpp Algoritmos.cpp Plantilla.cpp -o ordenamientos -O2 -I .```
 3. Ejecutar:
-```bash
-./ordenamientos
-```
+   ```bash ./ordenamientos ```
    
 
 ## 📌 Instrucciones de Uso
