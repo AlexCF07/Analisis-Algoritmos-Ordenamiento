@@ -46,7 +46,7 @@ g++ main.cpp -o ordenamientos -O2
 
 ## ⏱️ Resultados experimentales
 
-![Uploading Gráfica.png…]()
+![Comparación de algoritmos](Gráfica.png) 
 
 
 ## 🎯 Conclusiones
